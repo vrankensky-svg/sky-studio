@@ -651,6 +651,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 @media (min-width: 720px) {
   :root { --pad: 1.75rem; }
+  .work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .offer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .offer-grid .offer-card:last-child { grid-column: 1 / -1; }
   .step-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -667,10 +668,10 @@ button, a { -webkit-tap-highlight-color: transparent; }
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .offer-grid .offer-card:last-child { grid-column: auto; }
-  .work-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .section { padding: 4.4rem 0; }
 }
 
 @media (min-width: 880px) and (max-width: 959px) {
-  .work-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
