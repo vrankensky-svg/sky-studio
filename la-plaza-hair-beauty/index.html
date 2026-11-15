@@ -5,134 +5,102 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="La Plaza Hair &amp; Beauty, peluquería y salón de belleza en el Arenal de Xàbia. Página de demostración no oficial hecha por Sky.">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="theme-color" content="#f6efe9">
+  <meta name="theme-color" content="#f7f4f1">
   <title>La Plaza Hair &amp; Beauty · Xàbia (demo)</title>
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body data-redesign="laplaza-editorial-2026">
   <a class="skip" href="#contenido">
     <span data-lang="es">Saltar al contenido</span>
     <span data-lang="en" hidden>Skip to content</span>
   </a>
 
-  <div class="demo-bar">
+  <p class="demo-rule">
     <span data-lang="es">Demo no oficial hecha por Sky. No es el sitio oficial de La Plaza Hair &amp; Beauty.</span>
     <span data-lang="en" hidden>Unofficial demo made by Sky. This is not the official La Plaza Hair &amp; Beauty website.</span>
-  </div>
+  </p>
 
-  <header class="header">
+  <header class="topbar">
     <a class="logo" href="#inicio">
       <span class="logo-name">La Plaza</span>
       <span class="logo-sub">Hair &amp; Beauty</span>
     </a>
-    <nav class="nav" aria-label="Principal">
-      <a href="#nosotros" data-es="El salón" data-en="The salon">El salón</a>
-      <a href="#servicios" data-es="Servicios" data-en="Services">Servicios</a>
-      <a href="#horario" data-es="Horario" data-en="Hours">Horario</a>
-      <a href="#ubicacion" data-es="Dónde estamos" data-en="Location">Dónde estamos</a>
-    </nav>
-    <div class="header-actions">
+    <div class="topbar-actions">
       <div class="lang-toggle" role="group" aria-label="Idioma / Language">
         <button type="button" data-set-lang="es" aria-pressed="true">ES</button>
+        <span class="sep" aria-hidden="true">/</span>
         <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
       </div>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-movil">
-        <span class="nav-toggle-icon"></span>
-        <span class="visually-hidden" data-es="Abrir menú" data-en="Open menu">Abrir menú</span>
-      </button>
+      <button class="menu-open" type="button" aria-expanded="false" aria-controls="nav-overlay">Menú</button>
     </div>
   </header>
 
-  <nav class="nav-mobile" id="menu-movil" aria-label="Móvil">
-    <a href="#nosotros" data-es="El salón" data-en="The salon">El salón</a>
-    <a href="#servicios" data-es="Servicios" data-en="Services">Servicios</a>
-    <a href="#horario" data-es="Horario" data-en="Hours">Horario</a>
-    <a href="#ubicacion" data-es="Dónde estamos" data-en="Location">Dónde estamos</a>
-  </nav>
+  <div class="nav-overlay" id="nav-overlay" hidden>
+    <div class="nav-overlay-top">
+      <span class="logo-sub" style="color:#f7f4f1">La Plaza</span>
+      <button class="menu-close" type="button" data-es="Cerrar" data-en="Close">Cerrar</button>
+    </div>
+    <nav aria-label="Principal">
+      <a href="#servicios" data-es="Servicios" data-en="Services">Servicios</a>
+      <a href="#instagram" data-es="Instagram" data-en="Instagram">Instagram</a>
+      <a href="#horario" data-es="Horario" data-en="Hours">Horario</a>
+      <a href="#nosotros" data-es="El salón" data-en="The salon">El salón</a>
+      <a href="#ubicacion" data-es="Dónde estamos" data-en="Location">Dónde estamos</a>
+    </nav>
+  </div>
 
   <main id="contenido">
-    <section class="hero" id="inicio">
-      <div class="hero-copy">
+    <section class="editorial-hero" id="inicio">
+      <img src="assets/images/hero.jpg" width="1600" height="1067" alt="Foto de stock: ramas de flor de cerezo sobre un cielo azul (no es una foto del salón)">
+      <div class="copy">
         <p class="eyebrow">Xàbia · Platja de l’Arenal</p>
-        <h1>La Plaza</h1>
-        <p class="hero-kicker">Hair &amp; Beauty</p>
+        <h1>La <em>Plaza</em></h1>
+        <p class="kicker">Hair &amp; Beauty</p>
         <p class="hero-lead" data-lang="es">Peluquería y salón de belleza en el Arenal de Xàbia. Esta página es una demo para mostrar cómo podría verse una web sencilla del salón.</p>
         <p class="hero-lead" data-lang="en" hidden>A hair and beauty salon in Xàbia’s Arenal. This page is a demo of how a simple site for the salon could look.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="https://www.instagram.com/laplazasalonjavea/" rel="noopener noreferrer" target="_blank">@laplazasalonjavea</a>
-          <a class="btn btn-ghost" href="https://www.openstreetmap.org/?mlat=38.7727695&amp;mlon=0.1853333#map=17/38.7727695/0.1853333" rel="noopener noreferrer" target="_blank">
+        <div class="actions">
+          <a class="btn" href="https://www.instagram.com/laplazasalonjavea/" rel="noopener noreferrer" target="_blank">@laplazasalonjavea</a>
+          <a class="btn" href="https://www.openstreetmap.org/?mlat=38.7727695&amp;mlon=0.1853333#map=17/38.7727695/0.1853333" rel="noopener noreferrer" target="_blank">
             <span data-es="Cómo llegar" data-en="Get directions">Cómo llegar</span>
           </a>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <img src="assets/images/hero.jpg" width="1600" height="1067" alt="Foto de stock: ramas de flor de cerezo sobre un cielo azul (no es una foto del salón)">
-      </div>
-    </section>
-
-    <section class="section about" id="nosotros">
-      <div class="section-inner about-grid">
-        <div>
-          <div class="section-head">
-            <h2 data-lang="es">En el Arenal de Xàbia</h2>
-            <h2 data-lang="en" hidden>In Xàbia’s Arenal</h2>
-          </div>
-          <div class="about-text">
-            <p data-lang="es">La Plaza Hair and Beauty Salon aparece en directorios públicos como peluquería y salón de belleza, en Avinguda del Pla, 122, Local 2. Un listado local lo sitúa frente a Jávea Park, en el Arenal.</p>
-            <p data-lang="en" hidden>Public directories list La Plaza Hair and Beauty Salon as a hair and beauty salon at Avinguda del Pla, 122, Local 2. A local listing places it opposite Jávea Park, in the Arenal.</p>
-            <p class="confirm" data-lang="es">Cualquier otro detalle — servicios concretos, precios, horario o teléfono — se confirmará con el salón. Las fotos de esta demo son de stock, no del local.</p>
-            <p class="confirm" data-lang="en" hidden>Any other detail — specific services, prices, hours or phone number — will be confirmed with the salon. Photos on this demo are stock, not from the premises.</p>
-          </div>
-        </div>
-        <div class="about-photos">
-          <figure>
-            <img src="assets/images/calm.jpg" width="1600" height="2400" alt="Foto de stock: rincón claro con mesa, planta y lámpara">
-            <figcaption class="caption" data-lang="es">Foto de stock, no del salón</figcaption>
-            <figcaption class="caption" data-lang="en" hidden>Stock photo, not from the salon</figcaption>
-          </figure>
         </div>
       </div>
     </section>
 
     <section class="section" id="servicios">
-      <div class="section-inner">
-        <div class="section-head">
-          <h2 data-lang="es">Servicios</h2>
-          <h2 data-lang="en" hidden>Services</h2>
-          <p data-lang="es">Espacio para la lista oficial de servicios. Los nombres, descripciones y precios son placeholders hasta confirmarlos con el salón.</p>
-          <p data-lang="en" hidden>Space for the official service list. Names, descriptions and prices are placeholders until the salon confirms them.</p>
-        </div>
-        <div class="cards">
-          <article class="card">
-            <img src="assets/images/spa.jpg" width="1600" height="1067" alt="Foto de stock: toalla, flor y bote sin marca">
-            <div class="card-body">
+      <div class="wrap">
+        <h2 data-lang="es">Servicios</h2>
+        <h2 data-lang="en" hidden>Services</h2>
+        <p class="lede" data-lang="es">Espacio para la lista oficial de servicios, al estilo de una carta de salón. Los nombres, descripciones y precios son placeholders hasta confirmarlos con el salón.</p>
+        <p class="lede" data-lang="en" hidden>Space for the official service list, set out like a salon menu. Names, descriptions and prices are placeholders until the salon confirms them.</p>
+        <div class="salon-price-list" id="salon-price-list">
+          <article class="salon-item">
+            <div>
               <h3 data-lang="es">[servicio]</h3>
               <h3 data-lang="en" hidden>[service]</h3>
               <p data-lang="es">[descripción por confirmar]</p>
               <p data-lang="en" hidden>[description to be confirmed]</p>
-              <span class="placeholder">[precio]</span>
             </div>
+            <span class="price">[precio]</span>
           </article>
-          <article class="card">
-            <img src="assets/images/plant.jpg" width="1600" height="1200" alt="Foto de stock: planta verde sobre fondo claro">
-            <div class="card-body">
+          <article class="salon-item">
+            <div>
               <h3 data-lang="es">[servicio]</h3>
               <h3 data-lang="en" hidden>[service]</h3>
               <p data-lang="es">[descripción por confirmar]</p>
               <p data-lang="en" hidden>[description to be confirmed]</p>
-              <span class="placeholder">[precio]</span>
             </div>
+            <span class="price">[precio]</span>
           </article>
-          <article class="card">
-            <img src="assets/images/hero.jpg" width="1600" height="1067" alt="Foto de stock: flores rosadas">
-            <div class="card-body">
+          <article class="salon-item">
+            <div>
               <h3 data-lang="es">[servicio]</h3>
               <h3 data-lang="en" hidden>[service]</h3>
               <p data-lang="es">[descripción por confirmar]</p>
               <p data-lang="en" hidden>[description to be confirmed]</p>
-              <span class="placeholder">[precio]</span>
             </div>
+            <span class="price">[precio]</span>
           </article>
         </div>
         <p class="note" data-lang="es">La carta de servicios y los precios se actualizarán con su lista oficial.</p>
@@ -140,17 +108,28 @@
       </div>
     </section>
 
-    <section class="section hours" id="horario">
-      <div class="section-inner hours-layout">
+    <figure class="full-image">
+      <img src="assets/images/spa.jpg" width="1600" height="1067" alt="Foto de stock: toalla, flor y bote sin marca">
+      <figcaption data-lang="es">Foto de stock, no del salón</figcaption>
+      <figcaption data-lang="en" hidden>Stock photo, not from the salon</figcaption>
+    </figure>
+
+    <section class="ig-band" id="instagram">
+      <h2>Instagram</h2>
+      <p data-lang="es">El perfil público del salón está en @laplazasalonjavea.</p>
+      <p data-lang="en" hidden>The salon’s public profile is at @laplazasalonjavea.</p>
+      <a class="btn" href="https://www.instagram.com/laplazasalonjavea/" rel="noopener noreferrer" target="_blank">@laplazasalonjavea</a>
+    </section>
+
+    <section class="section" id="horario">
+      <div class="wrap hours-layout">
         <div>
-          <div class="section-head">
-            <h2 data-lang="es">Horario</h2>
-            <h2 data-lang="en" hidden>Opening hours</h2>
-          </div>
+          <h2 data-lang="es">Horario</h2>
+          <h2 data-lang="en" hidden>Opening hours</h2>
           <p class="confirm" data-lang="es">El horario concreto no está confirmado aquí. Conviene comprobarlo en el salón o en Instagram.</p>
           <p class="confirm" data-lang="en" hidden>Specific opening hours are not confirmed here. Please check in person or on Instagram.</p>
         </div>
-        <dl class="hours-card">
+        <dl class="hours-list">
           <div class="hours-row"><dt data-es="Lunes" data-en="Monday">Lunes</dt><dd>[horario]</dd></div>
           <div class="hours-row"><dt data-es="Martes" data-en="Tuesday">Martes</dt><dd>[horario]</dd></div>
           <div class="hours-row"><dt data-es="Miércoles" data-en="Wednesday">Miércoles</dt><dd>[horario]</dd></div>
@@ -162,13 +141,29 @@
       </div>
     </section>
 
-    <section class="section location" id="ubicacion">
-      <div class="section-inner place">
+    <section class="section" id="nosotros">
+      <div class="wrap split">
         <div>
-          <div class="section-head">
-            <h2 data-lang="es">Dónde estamos</h2>
-            <h2 data-lang="en" hidden>Where to find us</h2>
-          </div>
+          <h2 data-lang="es">En el Arenal de Xàbia</h2>
+          <h2 data-lang="en" hidden>In Xàbia’s Arenal</h2>
+          <p data-lang="es">La Plaza Hair and Beauty Salon aparece en directorios públicos como peluquería y salón de belleza, en Avinguda del Pla, 122, Local 2. Un listado local lo sitúa frente a Jávea Park, en el Arenal.</p>
+          <p data-lang="en" hidden>Public directories list La Plaza Hair and Beauty Salon as a hair and beauty salon at Avinguda del Pla, 122, Local 2. A local listing places it opposite Jávea Park, in the Arenal.</p>
+          <p class="confirm" data-lang="es">Cualquier otro detalle — servicios concretos, precios, horario o teléfono — se confirmará con el salón. Las fotos de esta demo son de stock, no del local.</p>
+          <p class="confirm" data-lang="en" hidden>Any other detail — specific services, prices, hours or phone number — will be confirmed with the salon. Photos on this demo are stock, not from the premises.</p>
+        </div>
+        <figure>
+          <img src="assets/images/calm.jpg" width="1600" height="2400" alt="Foto de stock: rincón claro con mesa, planta y lámpara">
+          <figcaption class="note" data-lang="es">Foto de stock, no del salón</figcaption>
+          <figcaption class="note" data-lang="en" hidden>Stock photo, not from the salon</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="ubicacion">
+      <div class="wrap split place">
+        <div>
+          <h2 data-lang="es">Dónde estamos</h2>
+          <h2 data-lang="en" hidden>Where to find us</h2>
           <address>
             <strong>La Plaza Hair &amp; Beauty</strong>
             Avinguda del Pla, 122, Local 2<br>
@@ -176,10 +171,10 @@
           </address>
           <p data-lang="es">Teléfono: [teléfono]. Los directorios públicos no coinciden en el número, así que no se usa aquí como dato confirmado.</p>
           <p data-lang="en" hidden>Phone: [teléfono]. Public listings do not agree on the number, so it is not used here as a confirmed fact.</p>
-          <div class="hero-actions place-actions">
-            <a class="btn btn-primary" href="https://www.instagram.com/laplazasalonjavea/" rel="noopener noreferrer" target="_blank">Instagram</a>
-            <a class="btn btn-ghost" href="https://www.facebook.com/laplazasalon" rel="noopener noreferrer" target="_blank">Facebook</a>
-            <a class="btn btn-ghost" href="https://www.openstreetmap.org/?mlat=38.7727695&amp;mlon=0.1853333#map=17/38.7727695/0.1853333" rel="noopener noreferrer" target="_blank">
+          <div class="actions">
+            <a class="btn btn-solid" href="https://www.instagram.com/laplazasalonjavea/" rel="noopener noreferrer" target="_blank">Instagram</a>
+            <a class="btn btn-line" href="https://www.facebook.com/laplazasalon" rel="noopener noreferrer" target="_blank">Facebook</a>
+            <a class="btn btn-line" href="https://www.openstreetmap.org/?mlat=38.7727695&amp;mlon=0.1853333#map=17/38.7727695/0.1853333" rel="noopener noreferrer" target="_blank">
               <span data-es="Cómo llegar" data-en="Get directions">Cómo llegar</span>
             </a>
           </div>
@@ -201,36 +196,24 @@
         </div>
       </div>
     </section>
-
-    <section class="band" id="instagram">
-      <h2 data-lang="es">Instagram</h2>
-      <h2 data-lang="en" hidden>Instagram</h2>
-      <p data-lang="es">El perfil público del salón está en @laplazasalonjavea.</p>
-      <p data-lang="en" hidden>The salon’s public profile is at @laplazasalonjavea.</p>
-      <a class="btn btn-light" href="https://www.instagram.com/laplazasalonjavea/" rel="noopener noreferrer" target="_blank">@laplazasalonjavea</a>
-    </section>
   </main>
 
   <footer class="footer">
-    <div class="footer-inner">
-      <div>
-        <div class="logo">
-          <span class="logo-name">La Plaza</span>
-          <span class="logo-sub">Hair &amp; Beauty</span>
-        </div>
-        <p class="footer-meta">
-          Avinguda del Pla, 122, Local 2, Platja de l’Arenal, Xàbia<br>
-          <a href="https://www.instagram.com/laplazasalonjavea/" rel="noopener noreferrer" target="_blank">@laplazasalonjavea</a>
-          ·
-          <a href="https://www.facebook.com/laplazasalon" rel="noopener noreferrer" target="_blank">Facebook</a>
-        </p>
-      </div>
-      <div class="footer-demo">
-        <p data-lang="es">Demo no oficial hecha por Sky. No es el sitio oficial de La Plaza Hair &amp; Beauty.</p>
-        <p data-lang="en" hidden>Unofficial demo made by Sky. This is not the official La Plaza Hair &amp; Beauty website.</p>
-        <p class="credits" data-lang="es">Fotos de stock de Unsplash (no son del salón). Mapa: OpenStreetMap. Sin rastreo ni cookies de análisis.</p>
-        <p class="credits" data-lang="en" hidden>Stock photos from Unsplash (not from the salon). Map: OpenStreetMap. No tracking or analytics cookies.</p>
-      </div>
+    <a class="logo" href="#inicio">
+      <span class="logo-name">La Plaza</span>
+      <span class="logo-sub">Hair &amp; Beauty</span>
+    </a>
+    <p>
+      Avinguda del Pla, 122, Local 2, Platja de l’Arenal, Xàbia<br>
+      <a href="https://www.instagram.com/laplazasalonjavea/" rel="noopener noreferrer" target="_blank">@laplazasalonjavea</a>
+      ·
+      <a href="https://www.facebook.com/laplazasalon" rel="noopener noreferrer" target="_blank">Facebook</a>
+    </p>
+    <div class="footer-demo">
+      <p data-lang="es">Demo no oficial hecha por Sky. No es el sitio oficial de La Plaza Hair &amp; Beauty.</p>
+      <p data-lang="en" hidden>Unofficial demo made by Sky. This is not the official La Plaza Hair &amp; Beauty website.</p>
+      <p class="credits" data-lang="es">Fotos de stock de Unsplash (no son del salón). Mapa: OpenStreetMap. Sin rastreo ni cookies de análisis.</p>
+      <p class="credits" data-lang="en" hidden>Stock photos from Unsplash (not from the salon). Map: OpenStreetMap. No tracking or analytics cookies.</p>
     </div>
   </footer>
   <script src="assets/js/main.js"></script>

@@ -23,4 +23,9 @@ Photographer names were not reliably returned by Unsplash’s public pages at th
 
 ## Type
 
-Self-hosted font files in `assets/fonts/` (Fraunces and Outfit) were already in the original demo. No webfont requests at runtime.
+Self-hosted variable font files in `assets/fonts/`, used under the SIL Open Font License. No webfont requests at runtime.
+
+- [Lora](https://fonts.google.com/specimen/Lora)
+- [Nunito](https://fonts.google.com/specimen/Nunito)
+
+Files were downloaded from [Fontsource](https://fontsource.org/) (jsDelivr) on 15 November 2026.

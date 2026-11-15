@@ -17,4 +17,9 @@ Photographer names were not reliably returned by Unsplash’s public pages at th
 
 ## Type
 
-Self-hosted Fraunces and Outfit font files, copied from the Sorbos demo’s `assets/fonts/` (no webfont requests at runtime).
+Self-hosted variable font files in `assets/fonts/`, used under the SIL Open Font License. No webfont requests at runtime.
+
+- [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond)
+- [Mulish](https://fonts.google.com/specimen/Mulish)
+
+Files were obtained from Google Fonts (CSS API) on 15 November 2026.
