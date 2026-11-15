@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sky Studio. Soy Sky, de Xàbia, y hago webs sencillas de una página para negocios locales: en el móvil, en español e inglés, con mapa y un botón de WhatsApp.">
+  <meta name="theme-color" content="#f3eee6">
+  <title>Sky Studio · Webs para negocios en Xàbia / Jávea</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">
+    <span data-lang="es">Saltar al contenido</span>
+    <span data-lang="en" hidden>Skip to content</span>
+  </a>
+
+  <header class="header">
+    <a class="logo" href="#inicio">
+      <span class="logo-name">Sky Studio</span>
+      <span class="logo-sub">Xàbia / Jávea</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#ofrezco" data-es="Qué ofrezco" data-en="What I offer">Qué ofrezco</a>
+      <a href="#ejemplos" data-es="Ejemplos" data-en="Examples">Ejemplos</a>
+      <a href="#como-funciona" data-es="Cómo funciona" data-en="How it works">Cómo funciona</a>
+      <!-- Temporarily hidden until prices are set:
+      <a href="#tarifas" data-es="Tarifas" data-en="Prices">Tarifas</a>
+      -->
+      <a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Idioma / Language">
+        <button type="button" data-set-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-movil">
+        <span class="nav-toggle-icon"></span>
+        <span class="visually-hidden" data-es="Abrir menú" data-en="Open menu">Abrir menú</span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="nav-mobile" id="menu-movil" aria-label="Móvil">
+    <a href="#ofrezco" data-es="Qué ofrezco" data-en="What I offer">Qué ofrezco</a>
+    <a href="#ejemplos" data-es="Ejemplos" data-en="Examples">Ejemplos</a>
+    <a href="#como-funciona" data-es="Cómo funciona" data-en="How it works">Cómo funciona</a>
+    <!-- Temporarily hidden until prices are set:
+    <a href="#tarifas" data-es="Tarifas" data-en="Prices">Tarifas</a>
+    -->
+    <a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a>
+  </nav>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Sky Studio · Xàbia / Jávea</p>
+          <h1 data-lang="es">Webs sencillas para negocios de aquí</h1>
+          <h1 data-lang="en" hidden>Simple websites for local businesses</h1>
+          <p class="hero-lead" data-lang="es">Soy Sky, de Xàbia. Hago webs de una página para negocios locales: se ven bien en el móvil, en español e inglés, con mapa y un botón de WhatsApp para que te escriban en un toque.</p>
+          <p class="hero-lead" data-lang="en" hidden>I’m Sky, from Xàbia. I build one-page websites for local businesses: they look good on a phone, come in Spanish and English, and include a map and a WhatsApp button so people can message you in one tap.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#ejemplos" data-es="Ver ejemplos" data-en="See examples">Ver ejemplos</a>
+            <a class="btn btn-ghost" href="#contacto" data-es="Escríbeme" data-en="Get in touch">Escríbeme</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" focusable="false">
+            <rect width="640" height="480" rx="28" fill="#e8e0d4"/>
+            <rect x="0" y="0" width="640" height="260" fill="#cfe0df"/>
+            <circle cx="498" cy="92" r="36" fill="#f4e2b8"/>
+            <path d="M0 250 C80 210 150 230 230 200 C320 168 360 210 430 190 C520 166 580 200 640 180 L640 280 L0 280 Z" fill="#9bb8b0"/>
+            <path d="M0 268 C120 238 200 270 310 250 C420 228 500 262 640 240 L640 310 L0 310 Z" fill="#6f8f88"/>
+            <path d="M0 300 C90 290 180 320 280 308 C400 292 500 328 640 312 L640 480 L0 480 Z" fill="#2f4a4a"/>
+            <path d="M0 348 C140 330 220 358 340 346 C460 334 540 368 640 350 L640 480 L0 480 Z" fill="#3d5c5c"/>
+            <path d="M86 268 L98 214 L118 268 Z" fill="#5c4a3a"/>
+            <path d="M70 224 C90 198 126 198 146 224 C128 218 108 218 90 224 Z" fill="#4d5b3a"/>
+            <rect x="248" y="236" width="18" height="28" rx="2" fill="#efe6d6"/>
+            <rect x="270" y="228" width="16" height="36" rx="2" fill="#f3eee6"/>
+            <rect x="290" y="240" width="20" height="24" rx="2" fill="#e4d6c4"/>
+            <rect x="312" y="232" width="14" height="32" rx="2" fill="#fffaf4"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <path d="M0 40 C240 80 480 0 720 32 C960 64 1200 8 1440 40 L1440 80 L0 80 Z"></path>
+    </svg>
+
+    <section class="section offers" id="ofrezco">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="eyebrow" data-es="Qué ofrezco" data-en="What I offer">Qué ofrezco</p>
+          <h2 data-lang="es">Una página clara, pensada para el móvil</h2>
+          <h2 data-lang="en" hidden>A clear page, designed for a phone</h2>
+          <p data-lang="es">Lo justo para que un cliente te encuentre, entienda qué haces y te escriba. Sin tienda online ni complicaciones de más.</p>
+          <p data-lang="en" hidden>Just enough for a customer to find you, understand what you do and get in touch. No online shop, and no extra complication.</p>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2"/><circle cx="12" cy="18.2" r="0.8" fill="currentColor" stroke="none"/></svg>
+            <h3 data-lang="es">Web de una página</h3>
+            <h3 data-lang="en" hidden>A one-page site</h3>
+            <p data-lang="es">Una sola página, pensada primero para el móvil. También se ve bien en el ordenador.</p>
+            <p data-lang="en" hidden>A single page, designed mobile-first. It also works well on a computer.</p>
+          </article>
+          <article class="offer-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.4 2.6 3.6 5.7 3.6 9s-1.2 6.4-3.6 9c-2.4-2.6-3.6-5.7-3.6-9s1.2-6.4 3.6-9Z"/></svg>
+            <h3 data-lang="es">Español e inglés</h3>
+            <h3 data-lang="en" hidden>Spanish and English</h3>
+            <p data-lang="es">La web se puede leer en los dos idiomas, con un botón para cambiar de uno a otro.</p>
+            <p data-lang="en" hidden>The site can be read in both languages, with a button to switch from one to the other.</p>
+          </article>
+          <article class="offer-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.8" r="2.3"/></svg>
+            <h3 data-lang="es">Mapa</h3>
+            <h3 data-lang="en" hidden>A map</h3>
+            <p data-lang="es">Para que te encuentren sin tener que preguntar la dirección otra vez.</p>
+            <p data-lang="en" hidden>So people can find you without having to ask for the address again.</p>
+          </article>
+          <article class="offer-card">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.87 9.87 0 0 0 12.02 2C6.61 2 2.21 6.4 2.22 11.81c0 1.73.45 3.42 1.32 4.91L2 22l5.42-1.42a9.86 9.86 0 0 0 4.6 1.17h.00c5.4 0 9.8-4.4 9.81-9.81a9.77 9.77 0 0 0-2.78-7.03Zm-7.03 15.1h-.00a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.22.84.86-3.14-.2-.32a8.19 8.19 0 0 1-1.26-4.37c0-4.53 3.69-8.21 8.23-8.21 2.2 0 4.26.86 5.81 2.41a8.16 8.16 0 0 1 2.4 5.81c-.01 4.53-3.7 8.21-8.14 8.21Zm4.5-6.15c-.25-.12-1.46-.72-1.69-.8-.23-.09-.39-.12-.56.12-.16.25-.64.8-.78.96-.14.16-.29.18-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.65.31-.23.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.54.12.16 1.73 2.64 4.2 3.7.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.17.21-.58.21-1.07.14-1.17-.06-.11-.23-.18-.48-.3Z"/></svg>
+            <h3>WhatsApp</h3>
+            <p data-lang="es">Un botón claro para que te escriban al momento, desde el teléfono.</p>
+            <p data-lang="en" hidden>A clear button so people can message you straight away, from their phone.</p>
+          </article>
+          <article class="offer-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M8 5V3.8M16 5V3.8M3.5 10h17"/></svg>
+            <h3 data-lang="es">Pequeñas actualizaciones</h3>
+            <h3 data-lang="en" hidden>Small monthly updates</h3>
+            <p data-lang="es">Si quieres, un plan mensual para cambiar el horario, una foto o un texto.</p>
+            <p data-lang="en" hidden>If you like, a monthly plan to change opening hours, a photo or a line of text.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work" id="ejemplos">
+      <div class="section-inner">
+        <div class="section-head work-intro">
+          <p class="eyebrow" data-es="Ejemplos" data-en="Examples">Ejemplos</p>
+          <h2 data-lang="es">Demos para ver cómo podría quedar</h2>
+          <h2 data-lang="en" hidden>Demos, to show how a site could look</h2>
+          <p data-lang="es">Estas tres páginas son demos de ejemplo. Las he preparado yo para mostrar cómo podría verse la web de un negocio local. No son los sitios oficiales de esos locales, ni un trabajo que ellos me hayan encargado.</p>
+          <p data-lang="en" hidden>These three pages are example demos. I made them to show how a local business website could look. They are not those businesses’ official sites, and they were not commissioned by them.</p>
+        </div>
+        <div class="work-grid">
+          <a class="work-card" href="./sorbos-cafe/">
+            <div class="work-preview">
+              <div class="phone">
+                <img src="assets/images/demos/sorbos-cafe.jpg" width="780" height="1480" alt="Captura de la demo de Sorbos Café. No es el sitio oficial.">
+              </div>
+            </div>
+            <div class="work-body">
+              <span class="badge">Demo / ejemplo</span>
+              <h3>Sorbos Café</h3>
+              <p data-lang="es">Demo de una web de una página para un café en Xàbia.</p>
+              <p data-lang="en" hidden>A one-page website demo for a café in Xàbia.</p>
+              <span class="work-link" data-es="Ver la demo" data-en="View the demo">Ver la demo</span>
+            </div>
+          </a>
+          <a class="work-card" href="./la-plaza-hair-beauty/">
+            <div class="work-preview">
+              <div class="phone">
+                <img src="assets/images/demos/la-plaza-hair-beauty.jpg" width="780" height="1480" alt="Captura de la demo de La Plaza Hair &amp; Beauty. No es el sitio oficial.">
+              </div>
+            </div>
+            <div class="work-body">
+              <span class="badge">Demo / ejemplo</span>
+              <h3>La Plaza Hair &amp; Beauty</h3>
+              <p data-lang="es">Demo de una web de una página para un salón en el Arenal.</p>
+              <p data-lang="en" hidden>A one-page website demo for a salon in the Arenal.</p>
+              <span class="work-link" data-es="Ver la demo" data-en="View the demo">Ver la demo</span>
+            </div>
+          </a>
+          <a class="work-card" href="./mi-lugar-coffee-brunch/">
+            <div class="work-preview">
+              <div class="phone">
+                <img src="assets/images/demos/mi-lugar-coffee-brunch.jpg" width="780" height="1480" alt="Captura de la demo de Mi Lugar Coffee &amp; Brunch. No es el sitio oficial.">
+              </div>
+            </div>
+            <div class="work-body">
+              <span class="badge">Demo / ejemplo</span>
+              <h3>Mi Lugar Coffee &amp; Brunch</h3>
+              <p data-lang="es">Demo de una web de una página para una cafetería en el Arenal.</p>
+              <p data-lang="en" hidden>A one-page website demo for a café in the Arenal.</p>
+              <span class="work-link" data-es="Ver la demo" data-en="View the demo">Ver la demo</span>
+            </div>
+          </a>
+        </div>
+        <p class="work-note" data-lang="es">Cada captura es de la demo, no del sitio oficial del negocio.</p>
+        <p class="work-note" data-lang="en" hidden>Each screenshot is of the demo, not of the business’s official site.</p>
+      </div>
+    </section>
+
+    <section class="section steps" id="como-funciona">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="eyebrow" data-es="Cómo funciona" data-en="How it works">Cómo funciona</p>
+          <h2 data-lang="es">Tres pasos, sin compromiso</h2>
+          <h2 data-lang="en" hidden>Three steps, no obligation</h2>
+        </div>
+        <div class="step-grid">
+          <article class="step">
+            <div class="step-num">01</div>
+            <h3 data-lang="es">Te hago una demo gratis</h3>
+            <h3 data-lang="en" hidden>I make you a free demo</h3>
+            <p data-lang="es">Preparo una página de ejemplo con lo que ya es público de tu negocio, para que veas cómo podría quedar.</p>
+            <p data-lang="en" hidden>I put together a sample page from what is already public about your business, so you can see how it could look.</p>
+          </article>
+          <article class="step">
+            <div class="step-num">02</div>
+            <h3 data-lang="es">La ajustamos</h3>
+            <h3 data-lang="en" hidden>We adjust it</h3>
+            <p data-lang="es">Si te encaja, afinamos textos, fotos, horario y detalles contigo hasta que quede bien.</p>
+            <p data-lang="en" hidden>If it feels right, we refine the copy, photos, opening hours and details with you until it sits well.</p>
+          </article>
+          <article class="step">
+            <div class="step-num">03</div>
+            <h3 data-lang="es">La publicamos</h3>
+            <h3 data-lang="en" hidden>We publish it</h3>
+            <p data-lang="es">Cuando esté lista, la publicamos. El dominio, si lo quieres, queda a tu nombre.</p>
+            <p data-lang="en" hidden>When it’s ready, we publish it. The domain, if you want one, is registered in your name.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Temporarily hidden until prices are set:
+    <section class="section prices" id="tarifas">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="eyebrow" data-es="Tarifas" data-en="Prices">Tarifas</p>
+          <h2 data-lang="es">Precios claros, confirmados por escrito</h2>
+          <h2 data-lang="en" hidden>Clear prices, confirmed in writing</h2>
+          <p data-lang="es">Estas tarifas son orientativas. Te las confirmo por escrito antes de empezar.</p>
+          <p data-lang="en" hidden>These prices are a guide. I confirm them in writing before we start.</p>
+        </div>
+        <div class="price-list">
+          <div class="price-row">
+            <div class="price-copy">
+              <h3 data-lang="es">Web básica</h3>
+              <h3 data-lang="en" hidden>Basic website</h3>
+              <p data-lang="es">Una página, móvil, español e inglés, mapa y botón de WhatsApp. Pago único.</p>
+              <p data-lang="en" hidden>One page, mobile-first, Spanish and English, a map and a WhatsApp button. One-off.</p>
+            </div>
+            <div class="price-amount"><span class="price-ph">[precio]</span></div>
+          </div>
+          <div class="price-row">
+            <div class="price-copy">
+              <h3 data-lang="es">Mantenimiento mensual</h3>
+              <h3 data-lang="en" hidden>Monthly maintenance</h3>
+              <p data-lang="es">Opcional. Pequeñas actualizaciones (horario, fotos, textos). Sin permanencia.</p>
+              <p data-lang="en" hidden>Optional. Small updates (hours, photos, text). No lock-in.</p>
+            </div>
+            <div class="price-amount"><span class="price-ph">[precio]</span> <span data-es="/ mes" data-en="/ month">/ mes</span></div>
+          </div>
+          <div class="price-row">
+            <div class="price-copy">
+              <h3 data-lang="es">Dominio</h3>
+              <h3 data-lang="en" hidden>Domain</h3>
+              <p data-lang="es">Opcional. Una dirección propia (por ejemplo, tunegocio.es), a tu nombre.</p>
+              <p data-lang="en" hidden>Optional. Your own address (for example, yourbusiness.es), in your name.</p>
+            </div>
+            <div class="price-amount"><span class="price-ph">[precio]</span> <span data-es="/ año" data-en="/ year">/ año</span></div>
+          </div>
+        </div>
+        <p class="price-fine" data-lang="es">Los precios no incluyen IVA, que se añadirá en la factura. El alojamiento se acuerda en cada caso.</p>
+        <p class="price-fine" data-lang="en" hidden>Prices do not include VAT (IVA), which will be added on the invoice. Hosting is agreed in each case.</p>
+      </div>
+    </section>
+
+    -->
+
+    <section class="section contact" id="contacto">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="eyebrow" style="color:#e8c4b0">Sky Studio</p>
+          <h2 data-lang="es">¿Hablamos?</h2>
+          <h2 data-lang="en" hidden>Shall we talk?</h2>
+          <p data-lang="es">Si tienes un negocio en Xàbia o cerca y quieres una web sencilla, escríbeme. Lo vemos con calma, sin compromiso.</p>
+          <p data-lang="en" hidden>If you have a business in Xàbia or nearby and you’d like a simple website, get in touch. We can talk it through, no obligation.</p>
+        </div>
+        <!-- Temporarily hidden until contact details are set:
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Instagram</span>
+            <span class="contact-value">[Instagram]</span>
+          </li>
+          <li>
+            <span class="contact-label">WhatsApp / email</span>
+            <span class="contact-value">[WhatsApp/email]</span>
+          </li>
+        </ul>
+        -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <strong>Sky Studio</strong>
+    <p data-lang="es">Webs para negocios locales en Xàbia / Jávea.</p>
+    <p data-lang="en" hidden>Websites for local businesses in Xàbia / Jávea.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
